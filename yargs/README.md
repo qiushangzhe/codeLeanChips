@@ -8,12 +8,12 @@
 - coerce.js 一些骚操作
 - command
 - completion
-- config
-- conflicts
+- config  可以通过外部的json文件进行配置yargs (这个牛逼)
+- conflicts 互斥，传入互斥的一对属性，两个值不能同时存在
 - count
-- defaults
-- demand
-- hide
+- defaults 设置某一个属性的默认值
+- demandOption 对某些属性进行强制检测，如果没有赋值则报错
+- hide 把某个属性藏起来
 - detectLocale
 - env
 - epilogue
