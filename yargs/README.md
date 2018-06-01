@@ -16,21 +16,20 @@
 - hide 把某个属性藏起来
 - detectLocale
 - env
-- epilogue
+- epilogue 在结尾加上自定义的骚气说明
 - example
 - exitProcess
-- fail
+- fail 错误回调。
 - getCompletion
 - global
-- group
-- help
-- showHidden
-- implies
+- group 给命令进行分组
+- help “sos”
+- implies 给一组属性，这两个要么同时被赋值，要么同时都没有被赋值。
 - locale
-- middleware
+- middleware 中间件，之后单独补充demo
 - nargs
 - normalize
-- number
+- number 强类型指定
 - option
 - parse
 - pkgConf
@@ -43,8 +42,10 @@
 - showHelpOnFail
 - skipValidation
 - strict
-- string
+- string 强类型指定
 - updateStrings
 - usage
-- version
+- version 版本
 - wrap
+
+https://github.com/yargs/yargs/blob/HEAD/docs/api.md
