@@ -1,0 +1,50 @@
+- base.js 读取控制台输入参数
+- pass.js 强制参数赋予 跳过控制台参数识别
+- alias.js 给key起一个别名
+- arguments.js 读取控制台不符合格式的参数以及当前文件名
+- multiple_value.js 给参数赋予多个值
+- boolean_value.js 强制设定参数的类型为boolean
+- choise.js 给定几个options进行选择，可以给参数加描述。
+- coerce.js 一些骚操作
+- command
+- completion
+- config
+- conflicts
+- count
+- defaults
+- demand
+- hide
+- detectLocale
+- env
+- epilogue
+- example
+- exitProcess
+- fail
+- getCompletion
+- global
+- group
+- help
+- showHidden
+- implies
+- locale
+- middleware
+- nargs
+- normalize
+- number
+- option
+- parse
+- pkgConf
+- positional
+- recommendCommands
+- required
+- reset
+- showCompletionScript
+- showHelp
+- showHelpOnFail
+- skipValidation
+- strict
+- string
+- updateStrings
+- usage
+- version
+- wrap
