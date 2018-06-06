@@ -1,0 +1,19 @@
+{
+  "name": "pa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {
+    "encoding": "^0.1.12",
+    "request": "^2.79.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
